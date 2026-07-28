@@ -1,0 +1,45 @@
+.main {
+  /* display: flex; */
+  margin-top: 100px;
+  text-align: center;
+}
+
+.logo-image {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-field {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.google-btn {
+  display: flexbox;
+
+  margin-top: 30px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 120px;
+  padding: 7px;
+  background-color: silver;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn {
+  /* display: inline; */
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::placeholder {
+  text-align: center;
+}
