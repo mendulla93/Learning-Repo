@@ -5,3 +5,7 @@ let apiKey = {
   name: olaidetnde,
   username: baba,
 };
+
+if (apiKey.includes("name")) {
+  `uou are eligible`;
+}
