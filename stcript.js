@@ -6,6 +6,18 @@ let apiKey = {
   username: baba,
 };
 
-if (apiKey.includes("name")) {
-  `uou are eligible`;
+let loginPage = document.querySelector("btn-login");
+let email = document.querySelector("form-group");
+
+function submitBtn() {
+  if (
+    loginPage.textContent &&
+    email.textContent.includes("@") &&
+    string === Number
+  ) {
+    `login successfull`;
+  } else {
+    `invalid login`;
+  }
 }
+console.log(submitBtn);

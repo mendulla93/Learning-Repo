@@ -8,19 +8,47 @@
     <link rel="icon" href="mern.jpg" />
   </head>
   <body>
-    <div class="main">
-      <img
-        class="logo-image"
-        src="google images.png"
-        alt="google search images"
-      />
-      <input type="text" class="input-field" placeholder=" Search" />
+    <div class="login-card">
+      <h1>Welcome back</h1>
+      <p class="subtitle">Sign in to your account</p>
 
-      <h1>Hello there</h1>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+          />
+        </div>
 
-      <button class="google-btn">Google Search</button>
-      <button class="google-btn">I'm Feeling Lucky</button>
-      <script src="stcript.js"></script>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="••••••••"
+            required
+          />
+        </div>
+
+        <div class="options">
+          <label class="remember">
+            <input type="checkbox" name="remember" />
+            Remember me
+          </label>
+          <a href="#" class="forgot">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn-login">Sign in</button>
+      </form>
+
+      <p onclick="submitBtn()" class="signup">
+        Don't have an account? <a href="#">Sign up</a>
+      </p>
     </div>
   </body>
 </html>
